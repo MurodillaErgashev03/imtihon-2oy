@@ -1,0 +1,67 @@
+.seller__container {
+    margin-top: 100px;
+}
+
+.seller__top-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.seller__title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 31px;
+    color: #000000;
+}
+
+.seller__span {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #003459
+}
+
+.siller__button {
+    width: 201px;
+    height: 44px;
+    border: 1.5px solid #003459;
+    border-radius: 57px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #003459;
+    background-color: transparent;
+  
+}
+.siller__button::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url(../../img/strelka.svg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: center;
+    background-size:cover;
+    background-position: 6px 5px;
+ 
+}
+
+.seller__bottom-box {
+    width: 151.43px;
+    height: 112px;
+}
+.seller__bottom-block{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(151.43px,1fr));
+    gap: 20px;
+    grid-template-rows: repeat(2,112px);
+    grid-auto-rows: 151.43px;
+   
+}
+@media screen and (max-width:1220px){
+    .seller{
+        display: none;
+    }
+}

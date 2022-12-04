@@ -1,0 +1,167 @@
+.dog__container {
+    margin-top: 60px;
+}
+
+.dogs__top-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 36px;
+}
+
+.dogs__item-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.dogs__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #003459;
+    margin-top: 2px;
+}
+
+.dogs__button {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #003459;
+
+    width: 151px;
+    height: 44px;
+    border: 1.5px solid #003459;
+    border-radius: 57px;
+    background-color: transparent;
+
+}
+.dogs__button::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url(../../img/strelka.svg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: center;
+    background-size:cover;
+    background-position: 6px 5px;
+ 
+}
+
+.dogs__list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.dogs__item {
+    padding: 8px;
+    max-width: 280px;
+
+    left: 130px;
+    top: 150px;
+    background: #FDFDFD;
+    box-shadow: 0px 4px 28px -2px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+}
+
+.dogs__item-block {
+    max-width: 264px;
+    padding: 8px 8px 20px 8px;
+}
+
+.dogs__little-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00171F;
+}
+
+.dogs__item-text {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #667479;
+    margin-top: 4px;
+    margin-bottom: 4px;
+
+}
+
+.dogs__item-span {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    color: #667479;
+    margin-left: 6px;
+
+}
+
+.dogs__item-span-1 {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    color: #667479;
+    margin-left: 6px;
+    margin-right: 26px;
+}
+
+.dogs__little-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #00171F;
+}
+
+@media screen and (max-width:1220px) {
+    .dogs__list {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .dogs{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .dogs__button {
+        display: none;
+    }
+
+    .dogs__item-title {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .dogs__title {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .dogs__item {
+        max-width: 185px;
+    }
+
+    .dogs__item-block {
+        width: 169px;
+        padding: 0;
+    }
+
+    .dogs__little-title {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .dogs__item-text {
+        max-width: 102px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .dogs__little-text {
+        font-size: 16px;
+        line-height: 24px
+    }
+}
